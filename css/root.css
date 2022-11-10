@@ -1,0 +1,143 @@
+:root{
+    --colorgreen:#4097a7;
+    --colorwithe:#f8fbf9;
+    --colorblack:#000000;
+    --coloryellow:#f3b500;
+    --colorgray:#777777;
+    --colorblue:#4285f4;
+    --colorred:#ea4336;
+    --colorgolden:#a57300;
+    --colorgreen2:#43ab54;
+    --font11:.68rem;
+    --font12:.75rem;
+    --font14:.875rem;
+    --font16:1rem;
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url('../font/IRANSansWeb\(FaNum\).eot')format('eot');
+    src: url('../font/IRANSansWeb\(FaNum\).ttf')format('ttf');
+    src: url('../font/IRANSansWeb\(FaNum\).woff')format('woff');
+}
+body{
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+.active-red{
+    color: var(--colorred) !important;
+}
+.active-green{
+    border-bottom: 2px solid var(--colorgreen);
+}
+.border-radius{
+    border-radius: 5px;
+}
+.mr{
+    margin-right: var(--font14);
+}
+.mt{
+   margin-top: var(--font14);
+}
+.mb{
+    margin-bottom:var(--font14) ;
+}
+.ml{
+    margin-left: var(--font14);
+}
+.pl{
+    padding-left: var(--font14);
+}
+.pr{
+    padding-right: var(--font14); 
+}
+.hed{
+    padding: 15px 0 10px;
+    color: var(--colorgreen);
+    font-size: var(--font16);
+    font-weight: 500;
+    text-align: center;
+}
+.top-layer{
+    background-color: #fff;
+    border-radius: 5px;
+    border-top: 3px solid var(--colorgreen);
+}
+
+.line-yellow{
+    color: #fff;
+    font-size: var(--font14)!important;
+    font-weight: 500;
+    height: 24px;
+    background-color: var(--coloryellow);
+    text-align: center;
+    padding: 2px 0;
+    margin: 0;
+}
+.line-blue{
+    color: #fff;
+    font-size: var(--font14)!important;
+    font-weight: 500;
+    height: 24px;
+    background-color: var(--colorblue);
+    text-align: center;
+    padding: 2px 0;
+    margin: 0;
+}
+.line-orange{
+    color: #fff;
+    font-size: var(--font14)!important;
+    font-weight: 500;
+    height: 24px;
+    background-color: #a57300;
+    text-align: center;
+    padding: 2px 0;
+    margin: 0;
+}
+.line-green{
+    color: #fff;
+    font-size: var(--font14)!important;
+    font-weight: 500;
+    height: 24px;
+    background-color: var(--colorgreen2);
+    text-align: center;
+    padding: 2px 0;
+    margin: 0;
+}
+.line-red{
+    color: #fff;
+    font-size: var(--font14)!important;
+    font-weight: 500;
+    height: 24px;
+    background-color: var(--colorred);
+    text-align: center;
+    padding: 2px 0;
+    margin: 0;
+}
+.line-gray{
+    background-color: var(--colorgray);
+    font-size: var(--font12)!important;
+    color: #fff;
+    height: 24px;
+    text-align: center;
+    font-weight: 500;
+    padding: 2px 0;
+
+}
+@media (max-width:1200px){
+    .container{
+        max-width: 1200px!important;
+    }
+}
+
+@media (max-width:900px){
+    
+    .header-bottom-menu div nav a{
+        font-size: var(--font11) !important;
+    }
+}
+/* @media (max-width:750px){
+     .menu-top-right  nav a, .menu-top-left nav div{
+        font-size: var(--font11) !important;
+
+    }
+} */
